@@ -1,0 +1,26 @@
+{
+  "name": "rendusass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIM-Creative-Technology/front-gulp-sass---dw1-Namacha0908.git"
+  },
+  "author": "Théo Laberrondo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIM-Creative-Technology/front-gulp-sass---dw1-Namacha0908/issues"
+  },
+  "homepage": "https://github.com/IIM-Creative-Technology/front-gulp-sass---dw1-Namacha0908#readme"
+}

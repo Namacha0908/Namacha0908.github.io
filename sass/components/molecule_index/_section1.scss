@@ -1,0 +1,50 @@
+#section1 {
+    width: 100%;
+    padding: 150px 200px 0px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    button {
+
+        width: 216px;
+        height: 49px;
+        padding: 13px 40px;
+        border-radius: 25px;
+        background-image: $background-button;
+
+        a {
+            text-decoration: none;
+            color: $color-link;
+            font-size: $fontsize_button_section1;
+            font-weight: 500;
+        }
+    }
+
+    .left-div {
+        float: left;
+
+        h2 {
+            font-size: $size_title;
+        }
+
+        h3 {
+            font-size: $size_little_title;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: $size-text-content;
+            font-weight: 300;
+            line-height: 1.56;
+            color: $color_content;
+        }
+
+    }
+
+    .right-div {
+        float: right;
+    }
+}

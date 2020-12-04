@@ -1,0 +1,82 @@
+footer {
+    width: 100%;
+    background-image: url("../img/footer.png");
+    height: 566.3px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 254px;
+
+    section {
+        padding-right: 150px;
+    }
+
+    .fa-map-marker-alt {
+        padding-top: 30px;
+    }
+
+    .logo {
+        h2 {
+            font-size: 50px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.51;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+
+        h3 {
+            padding-top: 25px;
+            font-size: 31px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.81;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+
+        i {
+            color: $background_color;
+        }
+
+    }
+
+    h4 {
+        padding-bottom: 30px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.25;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+    }
+
+
+
+}

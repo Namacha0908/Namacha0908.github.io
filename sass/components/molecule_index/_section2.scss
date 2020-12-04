@@ -1,0 +1,55 @@
+#section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .left-div2 {
+        float: left;
+
+
+    }
+
+    .right-div2 {
+        background-image: url("../img/background-we-are.png");
+        float: right;
+        padding-left: 150px;
+
+        h2 {
+            font-size: $size_titre_1;
+            color: $color_titre_1;
+        }
+
+        h3 {
+            font-size: $size_title;
+            font-weight: 600;
+            color: $color_titre_2;
+        }
+
+        p {
+            width: 553px;
+            height: 240px;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 1.56;
+            color: $color_content;
+        }
+
+        button {
+            width: 216px;
+            height: 49px;
+            padding: 13px 40px;
+            border-radius: 25px;
+            background-image: $background-button;
+
+            a {
+                text-decoration: none;
+                color: $color-link;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+}
